@@ -13,6 +13,7 @@
 		34B853291D17D433000B9366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B853271D17D433000B9366 /* Main.storyboard */; };
 		34B8532B1D17D433000B9366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B8532A1D17D433000B9366 /* Assets.xcassets */; };
 		34B8532E1D17D433000B9366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B8532C1D17D433000B9366 /* LaunchScreen.storyboard */; };
+		34B8533A1D17E4BF000B9366 /* FristTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B853391D17E4BF000B9366 /* FristTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		34B8532A1D17D433000B9366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34B8532D1D17D433000B9366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34B8532F1D17D434000B9366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B853381D17E4BF000B9366 /* FristTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristTableViewController.h; sourceTree = "<group>"; };
+		34B853391D17E4BF000B9366 /* FristTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				34B853221D17D433000B9366 /* AppDelegate.m */,
 				34B853241D17D433000B9366 /* ViewController.h */,
 				34B853251D17D433000B9366 /* ViewController.m */,
+				34B853381D17E4BF000B9366 /* FristTableViewController.h */,
+				34B853391D17E4BF000B9366 /* FristTableViewController.m */,
 				34B853271D17D433000B9366 /* Main.storyboard */,
 				34B8532A1D17D433000B9366 /* Assets.xcassets */,
 				34B8532C1D17D433000B9366 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B8533A1D17E4BF000B9366 /* FristTableViewController.m in Sources */,
 				34B853261D17D433000B9366 /* ViewController.m in Sources */,
 				34B853231D17D433000B9366 /* AppDelegate.m in Sources */,
 				34B853201D17D433000B9366 /* main.m in Sources */,
@@ -302,6 +308,7 @@
 				34B853341D17D434000B9366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
